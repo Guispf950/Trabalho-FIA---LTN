@@ -177,7 +177,7 @@ A Query Q3 é uma regra condicional: *"Se dois triângulos estão próximos, ele
 ### Passos
 1.  Clone o repositório.
 2.  Instale as dependências: `pip install ltn-torch`
-3.  Execute o notebook `Trabalho 3 FIA.ipynb` em um ambiente Jupyter ou Google Colab.
+3.  Execute o notebook `Trabalho_3_FIA.ipynb` em um ambiente Jupyter ou Google Colab.
 
 ---
 
