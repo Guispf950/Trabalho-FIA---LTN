@@ -104,11 +104,12 @@ O coração do sistema. O modelo é treinado para maximizar a verdade destas 20 
 13. **Query Q3 (Regra Aprendida):** Se dois triângulos estão próximos, eles *devem* ter o mesmo tamanho.
 
 ### 🔹 Grupo 4: Axiomas Estruturais (Rigor Lógico)
-Para garantir que a IA não "alucine" relações impossíveis:
-14. **Irreflexividade:** Nada está à esquerda de si mesmo ($\neg LeftOf(x,x)$).
-15. **Assimetria Horizontal:** Se $x$ está à esquerda de $y$, $y$ **não** pode estar à esquerda de $x$.
-16. **Transitividade Horizontal:** Se $x < y$ e $y < z$, então $x < z$.
-17. **Transitividade Vertical:** Se $x$ está abaixo de $y$ e $y$ abaixo de $z$, então $x$ abaixo de $z$.
+   Para garantir que a IA não "alucine" relações impossíveis:
+
+14. **Irreflexividade:** Nada está à esquerda de si mesmo `¬LeftOf(x,x)`.
+15. **Assimetria Horizontal:** Se x está à esquerda de y, y **não** pode estar à esquerda de x.
+16. **Transitividade Horizontal:** Se x < y e y < z, então x < z.
+17. **Transitividade Vertical:** Se x está abaixo de y e y abaixo de z, então x abaixo de z.
 
 ### 🔹 Grupo 5: Definições Avançadas
 18. **LastOnTheLeft:** Define o conceito de "objeto mais à esquerda de todos".
