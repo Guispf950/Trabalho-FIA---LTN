@@ -156,8 +156,8 @@ Os resultados mais críticos são os **F1-Scores** para `LeftOf` e `Below`.
 * No teste, ele viu objetos em posições totalmente novas e aleatórias (ex: `0.8, 0.9`).
 * **Conclusão:** O fato de manter F1 > 0.95 prova que a rede neural aprendeu a **função matemática** das coordenadas ($x_1 < x_2 \implies LeftOf$) e não apenas decorou posições. A rede desacoplou a percepção visual da lógica simbólica.
 
-#### ⚠️ O Paradoxo da Satisfação Global (Sat Agg ≈ 0.65)
-Um observador desatento pode achar que 0.65 é uma nota baixa. No entanto, em Logic Tensor Networks com dados aleatórios, **isso é o comportamento correto**.
+#### ⚠️ O Paradoxo da Satisfação Global (Sat Agg ≈ 0.64)
+Um observador desatento pode achar que 0.64 é uma nota baixa. No entanto, em Logic Tensor Networks com dados aleatórios, **isso é o comportamento correto**.
 * A Base de Conhecimento inclui perguntas existenciais complexas (ex: "Existe um Cone Verde entre dois objetos?").
 * Em um cenário gerado aleatoriamente, não há garantia estatística de que essa combinação específica exista.
 * Quando o cenário **não** tem um Cone Verde e o modelo retorna **0.0** (Falso), ele está **acertando a lógica**. Isso reduz a média aritmética da satisfação global, mas indica precisão do agente.
