@@ -1,6 +1,7 @@
 # Projeto 3: Raciocínio Espacial Neuro-Simbólico com Logic Tensor Networks (LTN)
 
 **Disciplina:** Fundamentos de Inteligência Artificial (FIA)
+
 **Professor:** Edjard Mota
 
 ## 👥 Equipe
